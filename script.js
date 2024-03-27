@@ -47,7 +47,7 @@ let btn = document.getElementById('btn');
 if(btn.addEventListener('click', function temp(){
     let city = document.getElementById('int').value;
     span.innerHTML = `${city}`
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b1fc6565e50827e1ee92621602315cd9`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b1fc6565e50827e1ee92621602315cd9`)
     .then(function(resp) { return resp.json()})
     .then(function(data) {
         console.log(data)
