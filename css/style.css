@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-image 0.8s;
+}
+.dad{
+    background-image: url(../theme/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.dad_1{
+    background-image: url(../theme/sky_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.dad_2{
+    background-image: url(../theme/sky_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.dad_3{
+    background-image: url(../theme/sky_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.dad_4{
+    background-image: url(../theme/sky_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.dad_5{
+    background-image: url(../img/bg.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    transform: scale(67%);
+    margin: 0 auto;
+    width: 427px;
+    height: 820px;
+    background: linear-gradient(179.8deg, rgba(42, 42, 42, 0.83) 14.09%, rgba(83, 83, 83, 0.41) 99.82%);
+    border-radius: 24px;
+}
+.place{
+    display: block;
+    width: 250px;
+    height: 46px;
+    background: #272727;
+    border-radius: 12px 0 0 12px;
+    margin-left: 49px;
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    padding-left: 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input{
+    border: 0px;
+}
+input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.loupe{
+    display: block;
+    margin-top: -46px;
+    padding: 9px 14px 12px 14px;
+    background: #272727;
+    margin-left: 324px;
+    border-radius: 0 12px 12px 0;
+}
+.nav{
+    justify-content: space-between;
+}
+input::placeholder{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+    color: #FFFFFF;
+}
+a{
+    text-transform: uppercase;
+}
+.wrapper{
+    background: rgba(35, 35, 35, 0.34);
+    border-radius: 19px;
+    width: 330px;
+    height: 435px;
+    margin: 0 auto;
+    margin-top: 41px;
+}
+.weather{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;  
+    color: #FFFFFF;
+    margin-left: 28px;
+    padding-top: 38px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.active{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;  
+    color: #FFFFFF;
+    margin-left: 28px;
+    padding-top: 38px;
+    opacity: 1;
+}
+.gradus{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-left: 28px;
+    padding-top: 30px;
+    opacity: 0;
+    transition: opacity 0.9s ease;
+}
+.sun{
+    display: flex;
+    margin: 0 auto;
+}
+.window{
+    display: flex;
+    opacity: 0;
+    transition: opacity 1.8s ease;
+}
+.speed{
+    margin: 0 auto;
+    color: #fff;
+}
+.icon{
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+.deg{
+    opacity: 0;
+    transition: opacity 2.4s ease;
+}
+.degger{
+    margin-top: 85px;
+    margin-left: 28px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;  
+    color: #FFFFFF;
+}
+.burger{
+    margin-top: 20px;
+    margin-left: 346px;
+    cursor: pointer;
+}
+.burger_1{
+    width: 286px;
+    height: 820px;
+    margin-top: -78px;
+    background: linear-gradient(179.8deg, rgba(42, 42, 42, 0.83) 14.09%, rgba(83, 83, 83, 0.41) 99.82%);
+    border-radius: 24px;
+    margin-left: -355px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+#syper{
+    margin-top: -740px;
+    transition: all 0.5s ease;
+}
+.act{
+    margin-left: 0;
+    opacity: 1;
+}
+.activation{
+    display: none;
+}
+.li{
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-top: 40px;
+    cursor: pointer;
+}
+.ulik_1{
+    margin-top: -30px;
+    display: flex;
+    margin-left: -11px;
+}
+.citys{
+    width: 241px;
+    height: 66px;
+    padding-left: 23px;
+    padding-top: 49px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #FFFFFF;   
+}
+#moscow{
+    padding-top: 111px;
+}
+ul{
+    padding-left: 35px;
+}
+.play{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 14px;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+.set_1{
+    background: rgba(35, 35, 35, 0.34);
+    border-radius: 19px;
+    width: 330px;
+    height: 645px;
+    margin: 0 auto;
+    margin-top: -654px; 
+    display: none;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.set__1{
+    display: block;
+    opacity: 1; 
+}
+.images_weather{
+    display: flex;
+    margin-left: 17px;
+    margin-top: 34px;
+}
+.images_weather img{
+    margin-right: 46px;
+}
+.settings{
+    margin-top: 180px;
+    margin-left: -17px;
+    cursor: pointer;
+}
+.none{
+    display: none;
+}
+#escs{
+    width: 60px;
+    height: 60px;
+    margin-left: 262px;
+    margin-top: 6px;
+}
+.ulik{
+    display: flex;
+    margin-left: -11px;
+    margin-top: 32px;
+}
+.tabs{
+    width: 82px;
+    height: 169px;
+    margin-right: 18px;
+    margin-top: 55px;
+    border-radius: 15px;
+}
+
+@media(max-width: 427px){
+    .container{
+        transform: scale(67%);
+        margin: 0 auto;
+        width: 400px;
+        height: 800px;
+        background: linear-gradient(179.8deg, rgba(42, 42, 42, 0.83) 14.09%, rgba(83, 83, 83, 0.41) 99.82%);
+        border-radius: 24px;
+    }
+    .settings{
+        margin-top: 162px;
+        margin-left: -19px;
+    }
+    .set_1{
+        margin-top: -640px;
+    }
+    .burger_1{
+        height: 798px;
+    }
+    .place{
+        margin-left: 36px;
+    }.loupe{
+        margin-left: 312px;
+    }
+    .burger{
+        margin-left: 322px;
+    }
+    .images_weather {
+        margin-left: 5px;
+    }
+}
+@media(max-width: 420px){
+    .container{
+        transform: scale(80%);
+        margin: 0 auto;
+        width: 350px;
+        height: 800px;
+        background: linear-gradient(179.8deg, rgba(42, 42, 42, 0.83) 14.09%, rgba(83, 83, 83, 0.41) 99.82%);
+        border-radius: 24px;
+    }
+    .chuz{
+        display: block;
+        margin-top: 210px;
+        margin-left: -126px;
+    }
+    .tabl{
+        margin-top: 47px;
+    }
+    .chuz_1{
+        display: block;
+        margin-top: -200px;
+        margin-left: 11px;
+    }
+    .set_1{
+        width: 278px;
+        height: 710px;
+        margin-top: -673px;
+    }
+    #escs{
+        margin-bottom: 38px;
+    }
+    .ulik___1{
+        margin-left: -127px;
+    }
+    #escs{
+        margin-left: 213px;
+    }
+    .tabs{
+        margin-right: 44px;
+    }
+    .ulik{
+        margin-left: 0px;
+        margin-top: -72px;
+    }
+    .place{
+        margin-left: 38px;
+        width: 207px;
+        height: 42px;
+    }
+    .loupe{
+        margin-top: -42px;
+        margin-left: 269px;
+        padding: 8px 10px 9px 10px;
+    }
+    .burger{
+        margin-left: 273px;
+    }
+    .burger_1{
+        height: 799px;
+    }
+    .images_weather {
+        margin-top: 50px;
+    }
+    .images_weather img{
+        margin-right: 30px;
+    }
+    .wrapper{
+        width: 278px;
+    }
+}
+@media(max-width: 350px){
+    .container{
+        transform: scale(67%);
+    }
+}
